@@ -1,0 +1,57 @@
+<div th:fragment="sidebar" class="dashboard-thq-aside-side-nav-bar-elm">
+    <div style="display: flex; align-items: center; justify-content: space-between; width: 100%; padding-bottom: 24px;">
+        
+        <div style="display: flex; align-items: center; gap: 12px;">
+            <div class="dashboard-thq-academic-researcher-avatar-elm">
+                <img th:src="@{/images/outani11741-080s-500w.png}" alt="Avatar" class="dashboard-thq-outani1-elm" />
+            </div>
+            <span class="dashboard-thq-text-elm10" th:text="${user != null ? user.name : 'Arda Soykan'}">Arda Soykan</span>
+        </div>
+
+        <a th:href="@{/notifications}" style="text-decoration: none; position: relative; display: flex; align-items: center; justify-content: center; padding: 4px; border-radius: 8px;">
+            <img th:src="@{/images/icon1633-ap2.svg}" alt="Bell" width="24" height="24" />
+            <div style="position: absolute; top: 0px; right: 0px; background-color: #1a237e; color: white; border-radius: 50%; width: 16px; height: 16px; font-size: 10px; font-weight: bold; display: flex; align-items: center; justify-content: center;">4</div>
+        </a>
+    </div>
+    
+    <div class="dashboard-thq-navmargin-elm">
+        <div class="dashboard-thq-nav-elm">
+            <a th:href="@{/announcements}" class="dashboard-thq-link-elm1" style="text-decoration: none;">
+                <img th:src="@{/images/margin1661-h36j.svg}" alt="Icon" class="dashboard-thq-margin-elm2" />
+                <span class="dashboard-thq-text-elm11" style="margin-left: 12px;">Announcements</span>
+            </a>
+            <a th:href="@{/team-builder}" class="dashboard-thq-link-elm2" style="text-decoration: none;">
+                <img th:src="@{/images/margin1661-p8mg.svg}" alt="Icon" class="dashboard-thq-margin-elm3" />
+                <span class="dashboard-thq-text-elm12" style="margin-left: 12px;">Team Builder</span>
+            </a>
+            <a th:href="@{/projects}" class="dashboard-thq-link-elm3" style="text-decoration: none;">
+                <img th:src="@{/images/margin1661-izzh.svg}" alt="Icon" class="dashboard-thq-margin-elm4" />
+                <span class="dashboard-thq-text-elm13" style="margin-left: 12px;">Search</span>
+            </a>
+            <a th:href="@{/profile}" class="dashboard-thq-link-elm4" style="text-decoration: none;">
+                <img th:src="@{/images/margin1661-niz4.svg}" alt="Icon" class="dashboard-thq-margin-elm5" />
+                <span class="dashboard-thq-text-elm14" style="margin-left: 12px;">Profile</span>
+            </a>
+            <a th:href="@{/dashboard}" class="dashboard-thq-link-elm5" style="text-decoration: none;">
+                <img th:src="@{/images/margin1661-h0l8.svg}" alt="Icon" class="dashboard-thq-margin-elm6" />
+                <span class="dashboard-thq-text-elm15" style="margin-left: 12px;">Dashboard</span>
+            </a>
+        </div>
+    </div>
+
+    <div class="dashboard-thq-margin-elm7">
+        <a th:href="@{/projects/new}" style="text-decoration: none;">
+            <button class="dashboard-thq-button-elm1">
+                <span class="dashboard-thq-text-elm16">New Project</span>
+            </button>
+        </a>
+        <div class="dashboard-thq-horizontal-border-elm" style="margin-top:20px;">
+            <a href="#" class="dashboard-thq-link-elm6" style="text-decoration: none;">
+                <span class="dashboard-thq-text-elm17">Support</span>
+            </a>
+            <a th:href="@{/auth/logout}" class="dashboard-thq-link-elm7" style="text-decoration: none;">
+                <span class="dashboard-thq-text-elm18">Sign Out</span>
+            </a>
+        </div>
+    </div>
+</div>

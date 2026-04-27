@@ -1,0 +1,907 @@
+.register-container1 {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.register-thq-register-elm {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  background-color: rgba(251, 248, 255, 1);
+}
+ 
+.register-thq-main-elm {
+  min-height: 100vh;
+  height: auto;
+  display: flex;
+  padding: 24px;
+  overflow: visible;
+  position: relative;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.register-thq-auth-canvas-section-elm {
+  gap: 5.6843418860808015e-14px;
+  width: min(1100px, 100%);
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  z-index: 10;
+  box-shadow: 0px 1px 2px 0px rgba(27, 27, 33, 0.05000000074505806) ;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.register-thq-interaction-canvas-forms-elm {
+  gap: 48px;
+  width: 100%;
+  min-height: 1016px;
+  height: auto;
+  display: flex;
+  padding: 24px 96px 64px;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.register-thq-tab-toggle-minimalist-elm {
+  gap: 32px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-end;
+  flex-shrink: 0;
+  border-color: rgba(198, 197, 212, 0.20000000298023224);
+  border-style: solid;
+  border-width: 0 0 1px;
+}
+ 
+.register-thq-link-elm1 {
+  height: 42px;
+  display: flex;
+  padding: 0 0 16px;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.register-thq-text-elm10 {
+  color: rgba(100, 116, 139, 1);
+  height: auto;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Public Sans;
+  font-weight: 400;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.register-thq-link-elm2 {
+  height: 42px;
+  display: flex;
+  padding: 0 0 16px;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(0, 6, 102, 1);
+  border-style: solid;
+  border-width: 0 0 2px;
+  flex-direction: column;
+}
+ 
+.register-thq-text-elm11 {
+  color: rgba(0, 6, 102, 1);
+  height: auto;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Public Sans;
+  font-weight: 700;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.register-thq-container-elm10 {
+  gap: 32px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.register-thq-container-elm11 {
+  gap: 8px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.register-thq-heading3-elm {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.register-thq-text-elm12 {
+  color: rgba(27, 27, 33, 1);
+  height: auto;
+  font-size: 30px;
+  align-self: stretch;
+  font-style: ExtraBold;
+  text-align: left;
+  font-family: Manrope;
+  font-weight: 800;
+  line-height: 36px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.register-thq-container-elm12 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.register-thq-text-elm13 {
+  color: rgba(69, 70, 82, 1);
+  height: auto;
+  font-size: 16px;
+  align-self: stretch;
+  font-style: Light;
+  text-align: left;
+  font-family: Public Sans;
+  font-weight: 300;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.register-thq-form-elm {
+  gap: 32px;
+  display: flex;
+  padding: 8px 0 0;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.register-thq-container-elm13 {
+  gap: 24px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.register-thq-email-elm {
+  gap: 8px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.register-thq-label-elm1 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.register-thq-text-elm16 {
+  color: rgba(0, 6, 102, 1);
+  height: auto;
+  font-size: 12px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Public Sans;
+  font-weight: 400;
+  line-height: 16px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.register-thq-input-elm1 {
+  display: flex;
+  padding: 14px 0 15px;
+  overflow: hidden;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(198, 197, 212, 0.20000000298023224);
+  border-style: solid;
+  border-width: 0 0 2px;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.register-thq-input-elm1 input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: rgba(27, 27, 33, 1);
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Public Sans;
+}
+
+.register-thq-input-elm1 input::placeholder {
+  color: rgba(118, 118, 131, 0.8);
+}
+ 
+.register-thq-container-elm14 {
+  width: 908px;
+  display: flex;
+  overflow: hidden;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.register-thq-text-elm17 {
+  color: rgba(118, 118, 131, 0.5);
+  height: auto;
+  font-size: 16px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Public Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.register-thq-name-elm {
+  gap: 8px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.register-thq-label-elm2 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.register-thq-text-elm18 {
+  color: rgba(0, 6, 102, 1);
+  height: auto;
+  font-size: 12px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Public Sans;
+  font-weight: 400;
+  line-height: 16px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.register-thq-input-elm2 {
+  display: flex;
+  padding: 14px 0 15px;
+  overflow: hidden;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(198, 197, 212, 0.20000000298023224);
+  border-style: solid;
+  border-width: 0 0 2px;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.register-thq-input-elm2 input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: rgba(27, 27, 33, 1);
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Public Sans;
+}
+
+.register-thq-input-elm2 input::placeholder {
+  color: rgba(118, 118, 131, 0.8);
+}
+ 
+.register-thq-container-elm15 {
+  width: 908px;
+  display: flex;
+  overflow: hidden;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.register-thq-text-elm19 {
+  color: rgba(118, 118, 131, 0.5);
+  height: auto;
+  font-size: 16px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Public Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.register-thq-university-elm {
+  gap: 8px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.register-thq-label-elm3 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.register-thq-text-elm20 {
+  color: rgba(0, 6, 102, 1);
+  height: auto;
+  font-size: 12px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Public Sans;
+  font-weight: 400;
+  line-height: 16px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.register-thq-input-elm3 {
+  display: flex;
+  padding: 14px 0 15px;
+  overflow: hidden;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(198, 197, 212, 0.20000000298023224);
+  border-style: solid;
+  border-width: 0 0 2px;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.register-thq-input-elm3 input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: rgba(27, 27, 33, 1);
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Public Sans;
+}
+
+.register-thq-input-elm3 input::placeholder {
+  color: rgba(118, 118, 131, 0.8);
+}
+ 
+.register-thq-container-elm16 {
+  width: 908px;
+  display: flex;
+  overflow: hidden;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.register-thq-text-elm21 {
+  color: rgba(118, 118, 131, 0.5);
+  height: auto;
+  font-size: 16px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Public Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.register-thq-department-elm {
+  gap: 8px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.register-thq-label-elm4 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.register-thq-text-elm22 {
+  color: rgba(0, 6, 102, 1);
+  height: auto;
+  font-size: 12px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Public Sans;
+  font-weight: 400;
+  line-height: 16px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.register-thq-input-elm4 {
+  display: flex;
+  padding: 14px 0 15px;
+  overflow: hidden;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(198, 197, 212, 0.20000000298023224);
+  border-style: solid;
+  border-width: 0 0 2px;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.register-thq-input-elm4 input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: rgba(27, 27, 33, 1);
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Public Sans;
+}
+
+.register-thq-input-elm4 input::placeholder {
+  color: rgba(118, 118, 131, 0.8);
+}
+ 
+.register-thq-container-elm17 {
+  width: 908px;
+  display: flex;
+  overflow: hidden;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.register-thq-text-elm23 {
+  color: rgba(118, 118, 131, 0.5);
+  height: auto;
+  font-size: 16px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Public Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.register-thq-title-elm1 {
+  gap: 8px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.register-thq-label-elm5 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.register-thq-text-elm24 {
+  color: rgba(0, 6, 102, 1);
+  height: auto;
+  font-size: 12px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Public Sans;
+  font-weight: 400;
+  line-height: 16px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.register-thq-input-elm5 {
+  display: flex;
+  padding: 14px 0 15px;
+  overflow: hidden;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(198, 197, 212, 0.20000000298023224);
+  border-style: solid;
+  border-width: 0 0 2px;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.register-thq-input-elm5 input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: rgba(27, 27, 33, 1);
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Public Sans;
+}
+
+.register-thq-input-elm5 input::placeholder {
+  color: rgba(118, 118, 131, 0.8);
+}
+ 
+.register-thq-container-elm18 {
+  width: 908px;
+  display: flex;
+  overflow: hidden;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.register-thq-text-elm25 {
+  color: rgba(118, 118, 131, 0.5);
+  height: auto;
+  font-size: 16px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Public Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.register-thq-title-elm2 {
+  gap: 8px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.register-thq-label-elm6 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.register-thq-text-elm26 {
+  color: rgba(0, 6, 102, 1);
+  height: auto;
+  font-size: 12px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Public Sans;
+  font-weight: 400;
+  line-height: 16px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.register-thq-input-elm6 {
+  display: flex;
+  padding: 14px 0 15px;
+  overflow: hidden;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(198, 197, 212, 0.20000000298023224);
+  border-style: solid;
+  border-width: 0 0 2px;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.register-thq-input-elm6 input,
+.register-thq-input-elm6 select {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: rgba(27, 27, 33, 1);
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Public Sans;
+}
+
+.register-thq-input-elm6 input::placeholder,
+.register-thq-input-elm6 select::placeholder {
+  color: rgba(118, 118, 131, 0.8);
+}
+
+.register-thq-input-elm6 select {
+  appearance: auto;
+  cursor: pointer;
+}
+ 
+.register-thq-container-elm19 {
+  width: 908px;
+  display: flex;
+  overflow: hidden;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.register-thq-text-elm27 {
+  color: rgba(118, 118, 131, 0.5);
+  height: auto;
+  font-size: 16px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Public Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.register-thq-password-elm {
+  gap: 8px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.register-thq-label-elm7 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.register-thq-text-elm28 {
+  color: rgba(0, 6, 102, 1);
+  height: auto;
+  font-size: 12px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Public Sans;
+  font-weight: 400;
+  line-height: 16px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.register-thq-input-elm7 {
+  display: flex;
+  padding: 14px 0 15px;
+  overflow: hidden;
+  position: relative;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(198, 197, 212, 0.20000000298023224);
+  border-style: solid;
+  border-width: 0 0 2px;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.register-thq-password-toggle-elm {
+  top: 8px;
+  right: 0;
+  width: 36px;
+  height: 36px;
+  border: none;
+  display: flex;
+  cursor: pointer;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+}
+
+.register-thq-password-toggle-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.register-thq-input-elm7 input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: rgba(27, 27, 33, 1);
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Public Sans;
+}
+
+.register-thq-input-elm7 input::placeholder {
+  color: rgba(118, 118, 131, 0.8);
+}
+ 
+.register-thq-container-elm20 {
+  width: 908px;
+  display: flex;
+  overflow: hidden;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.register-thq-text-elm29 {
+  color: rgba(118, 118, 131, 0.5);
+  height: auto;
+  font-size: 16px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Public Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.register-thq-button-elm {
+  display: flex;
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  padding: 20px 0;
+  position: relative;
+  align-self: stretch;
+  background: linear-gradient(126deg, rgba(0, 6, 102, 1) 0%, rgba(26, 35, 126, 1) 100%);
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 6px;
+  justify-content: center;
+}
+ 
+.register-thq-buttonshadow-elm {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+  pointer-events: none;
+  border-radius: 6px;
+}
+ 
+.register-thq-text-elm30 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  z-index: 1;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Manrope;
+  font-weight: 400;
+  line-height: 20px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.register-thq-background-blur-elm1 {
+  top: 475px;
+  left: 0px;
+  width: 600px;
+  height: 600px;
+  opacity: 0.20;
+  z-index: 1;
+  position: absolute;
+  pointer-events: none;
+  border-radius: 12px;
+}
+ 
+.register-thq-background-blur-elm2 {
+  top: 0px;
+  left: 1320px;
+  width: 600px;
+  height: 600px;
+  opacity: 0.10;
+  z-index: 2;
+  position: absolute;
+  pointer-events: none;
+  border-radius: 12px;
+}
+ 
+.register-thq-organic-intellectualism-background-elements-elm {
+  top: 0px;
+  left: 0px;
+  width: 1920px;
+  height: 1294px;
+  opacity: 0.15;
+  z-index: 3;
+  position: absolute;
+  pointer-events: none;
+}
+ 
+.register-link {
+  display: contents;
+}
+ 
+.register-container2 {
+  right: 50px;
+  border: 1px solid #ffffff5c;
+  bottom: 30px;
+  display: flex;
+  z-index: 22;
+  position: fixed;
+  box-shadow: 5px 5px 10px 0px rgba(31, 31, 31, 0.4);
+  min-height: auto;
+  align-items: center;
+  padding-top: 8px;
+  padding-left: 12px;
+  border-radius: 8px;
+  padding-right: 12px;
+  padding-bottom: 8px;
+  backdrop-filter: blur(6px);
+  background-color: rgba(41, 41, 41, 0.41);
+}
+ 
+.register-icon1 {
+  width: 24px;
+  margin-right: 4px;
+}
+ 
+.register-text2 {
+  color: white;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}

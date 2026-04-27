@@ -1,17 +1,12 @@
 package com.uskudar_uni.se302.model;
 
+import com.uskudar_uni.se302.model.enums.UserType;
 import jakarta.persistence.*;
 import lombok.*;
-
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
-
-import org.hibernate.annotations.JdbcTypeCode;
-import org.hibernate.type.SqlTypes;
-
-import com.uskudar_uni.se302.model.enums.UserType;
 
 
 @Entity @Table(name = "users")
@@ -34,9 +29,6 @@ public class User {
     private boolean available = true;
     private int year;
     
-    @JdbcTypeCode(SqlTypes.JSON)
-    @Column(columnDefinition = "jsonb")
-    private Map<String, String> links = new HashMap<>();
 
     @Column(columnDefinition = "TEXT")
     private String bio;

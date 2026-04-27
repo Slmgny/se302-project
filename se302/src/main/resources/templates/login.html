@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Login - Project Matching</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&family=Public+Sans:wght@400;500;600;700&display=swap" />
+    <link rel="stylesheet" href="https://unpkg.com/animate.css@4.1.1/animate.css" />
+    <link rel="stylesheet" href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css" />
+
+    <style data-tag="reset-style-sheet">
+        html { line-height: 1.15; scroll-behavior: smooth;}
+        body { margin: 0; }
+        * { box-sizing: border-box; border-width: 0; border-style: solid; -webkit-font-smoothing: antialiased; }
+        p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption { margin: 0; padding: 0; }
+        button,input,select,textarea { font-family: inherit; font-size: 100%; line-height: 1.15; margin: 0; }
+        button,select { text-transform: none; }
+        button,[type="button"],[type="submit"] { -webkit-appearance: button; appearance: button; background-color: transparent; cursor: pointer; }
+        a { color: inherit; text-decoration: inherit; }
+        input { padding: 2px 4px; }
+        img { display: block; }
+    </style>
+    
+    <style data-tag="default-style-sheet">
+        html { font-family: Inter, sans-serif; font-size: 16px; }
+        body { color: var(--dl-color-theme-neutral-dark); background: var(--dl-color-theme-neutral-light); }
+    </style>
+</head>
+<body>
+    <link rel="stylesheet" th:href="@{/css/style.css}" />
+    <div>
+        <link rel="stylesheet" th:href="@{/css/login.css}" />
+
+        <div class="login-container1">
+            <div class="login-thq-login-elm">
+                <div class="login-thq-main-elm">
+                    <div class="login-thq-auth-canvas-section-elm">
+                        <div class="login-thq-interaction-canvas-forms-elm">
+                            
+                            <div class="login-thq-tab-toggle-minimalist-elm">
+                                <button class="login-thq-button-elm1" type="button">
+                                    <span class="login-thq-text-elm10">Sign In</span>
+                                </button>
+                                <a th:href="@{/auth/register}" class="login-thq-button-elm2">
+                                    <span class="login-thq-text-elm11">Register</span>
+                                </a>
+                            </div>
+
+                            <div class="login-thq-container-elm10">
+                                <div class="login-thq-container-elm11">
+                                    <div class="login-thq-heading3-elm">
+                                        <span class="login-thq-text-elm12">Welcome Back</span>
+                                    </div>
+                                    <div class="login-thq-container-elm12">
+                                        <span class="login-thq-text-elm13">
+                                            <span>Please enter your credentials to access your curator</span><br />
+                                            <span>dashboard.</span>
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="login-thq-form-elm">
+                                    <div th:if="${successMessage}" style="color:#198754; margin-bottom:10px; font-weight:600;" th:text="${successMessage}"></div>
+                                    <div th:if="${errorMessage}" style="color:#ba1a1a; margin-bottom:10px; font-weight:600;" th:text="${errorMessage}"></div>
+
+                                    <form th:action="@{/auth/login}" th:object="${loginRequest}" method="post">
+                                        
+                                        <div class="login-thq-input-field-email-elm">
+                                            <div class="login-thq-label-elm1">
+                                                <span class="login-thq-text-elm16">INSTITUTIONAL EMAIL</span>
+                                            </div>
+                                            <div class="login-thq-container-elm13">
+                                                <div class="login-thq-input-elm1">
+                                                    <div class="login-thq-container-elm14">
+                                                        <input class="login-thq-text-elm17" type="email" th:field="*{email}" placeholder="curator@university.edu" required style="width:100%; background:transparent; border:none; outline:none;" />
+                                                    </div>
+                                                </div>
+                                                <img th:src="@{/images/container1371-jbtv.svg}" alt="Email Icon" class="login-thq-container-elm15" />
+                                            </div>
+                                        </div>
+
+                                        <div class="login-thq-input-field-password-elm" style="margin-top: 20px;">
+                                            <div class="login-thq-container-elm16">
+                                                <div class="login-thq-label-elm2">
+                                                    <span class="login-thq-text-elm18">Password</span>
+                                                </div>
+                                            </div>
+                                            <div class="login-thq-container-elm17">
+                                                <div class="login-thq-input-elm2">
+                                                    <div class="login-thq-container-elm18">
+                                                        <input class="login-thq-text-elm19" id="login-password" type="password" th:field="*{password}" placeholder="Enter password" required style="width:100%; background:transparent; border:none; outline:none;" />
+                                                    </div>
+                                                </div>
+                                                <button type="button" class="login-thq-password-toggle-elm" data-password-toggle data-target="login-password">
+                                                    <img th:src="@{/images/container1371-hoj.svg}" alt="Toggle password" class="login-thq-container-elm19" />
+                                                </button>
+                                            </div>
+                                        </div>
+
+                                        <div class="login-thq-link-elm" style="margin-top: 15px; margin-bottom: 20px;">
+                                            <a class="login-thq-text-elm20" th:href="@{/auth/forgot-password}">Forgot Password?</a>
+                                        </div>
+
+                                        <button class="login-thq-button-elm3" type="submit">
+                                            <img th:src="@{/images/buttonshadow1371-m3nw-200h.png}" alt="Button Shadow" class="login-thq-buttonshadow-elm" />
+                                            <span class="login-thq-text-elm21">Sign in</span>
+                                        </button>
+                                    </form>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <img th:src="@{/images/backgroundblur1371-7co.svg}" alt="Background Blur" class="login-thq-background-blur-elm1" />
+                    <img th:src="@{/images/backgroundblur1371-r1d-600h.png}" alt="Background Blur" class="login-thq-background-blur-elm2" />
+                    <img th:src="@{/images/organicintellectualismbackgroundelements1371-86cp-2000w.png}" alt="Background Elements" class="login-thq-organic-intellectualism-background-elements-elm" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        (function () {
+            var toggles = document.querySelectorAll('[data-password-toggle]');
+            toggles.forEach(function (toggle) {
+                toggle.addEventListener('click', function () {
+                    var targetId = toggle.getAttribute('data-target');
+                    var input = document.getElementById(targetId);
+                    if (!input) return;
+
+                    var show = input.type === 'password';
+                    input.type = show ? 'text' : 'password';
+                    toggle.setAttribute('aria-pressed', show ? 'true' : 'false');
+                });
+            });
+        })();
+    </script>
+</body>
+</html>
+

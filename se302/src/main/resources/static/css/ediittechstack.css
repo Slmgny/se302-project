@@ -1,0 +1,453 @@
+.ediittechstack-container1 {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.ediittechstack-thq-ediittechstack-elm {
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  box-shadow: 0px 25px 50px -12px rgba(0, 0, 0, 0.25) ;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 8px;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.ediittechstack-thq-modal-header-elm {
+  gap: 8px;
+  display: flex;
+  padding: 32px 32px 24px;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.ediittechstack-thq-container-elm1 {
+  gap: 249.6699981689453px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: space-between;
+}
+ 
+.ediittechstack-thq-heading2-elm {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.ediittechstack-thq-text-elm10 {
+  color: rgba(27, 27, 33, 1);
+  height: auto;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Manrope;
+  font-weight: 700;
+  line-height: 32px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.ediittechstack-thq-button-elm1 {
+  width: 14px;
+  height: 14px;
+}
+ 
+.ediittechstack-thq-container-elm2 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.ediittechstack-thq-text-elm11 {
+  color: rgba(69, 70, 82, 1);
+  height: auto;
+  font-size: 14px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Public Sans;
+  font-weight: 400;
+  line-height: 20px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.ediittechstack-thq-modal-content-elm {
+  gap: 32px;
+  display: flex;
+  padding: 0 32px 32px;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.ediittechstack-thq-search-section-elm {
+  gap: 12px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.ediittechstack-thq-label-elm {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.ediittechstack-thq-text-elm14 {
+  color: rgba(0, 6, 102, 1);
+  height: auto;
+  font-size: 12px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Public Sans;
+  font-weight: 400;
+  line-height: 16px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.ediittechstack-thq-container-elm3 {
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+ 
+.ediittechstack-thq-input-elm {
+  width: 512px;
+  display: flex;
+  padding: 14px 16px 14px 40px;
+  overflow: hidden;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 4px 4px 0 0;
+  flex-direction: column;
+  background-color: rgba(245, 242, 251, 1);
+}
+ 
+.ediittechstack-thq-container-elm4 {
+  display: flex;
+  overflow: hidden;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.ediittechstack-thq-text-elm15 {
+  color: rgba(107, 114, 128, 1);
+  height: auto;
+  font-size: 14px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Public Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.ediittechstack-thq-icon-elm {
+  top: 13px;
+  left: 15px;
+  width: 18px;
+  height: 18px;
+  z-index: 1;
+  position: absolute;
+}
+ 
+.ediittechstack-thq-current-skills-elm {
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.ediittechstack-thq-container-elm5 {
+  gap: 358.9700012207031px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: space-between;
+}
+ 
+.ediittechstack-thq-heading3-elm {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.ediittechstack-thq-text-elm16 {
+  color: rgba(27, 27, 33, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Public Sans;
+  font-weight: 400;
+  line-height: 20px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.ediittechstack-thq-container-elm6 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.ediittechstack-thq-text-elm17 {
+  color: rgba(69, 70, 82, 1);
+  height: auto;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Public Sans;
+  font-weight: 400;
+  line-height: 16px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.ediittechstack-thq-container-elm7 {
+  gap: 8px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.ediittechstack-thq-background-elm1 {
+  gap: 8px;
+  display: flex;
+  padding: 5.5px 12px 6.5px;
+  align-self: stretch;
+  align-items: center;
+  border-radius: 12px;
+  background-color: rgba(224, 224, 255, 1);
+}
+ 
+.ediittechstack-thq-text-elm18 {
+  color: rgba(0, 7, 103, 1);
+  height: auto;
+  font-size: 12px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Manrope;
+  font-weight: 700;
+  line-height: 16px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.ediittechstack-thq-button-elm2 {
+  width: 8px;
+  height: 8px;
+}
+ 
+.ediittechstack-thq-background-elm2 {
+  gap: 8px;
+  display: flex;
+  padding: 5.5px 12px 6.5px;
+  align-self: stretch;
+  align-items: center;
+  border-radius: 12px;
+  background-color: rgba(224, 224, 255, 1);
+}
+ 
+.ediittechstack-thq-text-elm19 {
+  color: rgba(0, 7, 103, 1);
+  height: auto;
+  font-size: 12px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Manrope;
+  font-weight: 700;
+  line-height: 16px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.ediittechstack-thq-button-elm3 {
+  width: 8px;
+  height: 8px;
+}
+ 
+.ediittechstack-thq-background-elm3 {
+  gap: 8px;
+  display: flex;
+  padding: 5.5px 12px 6.5px;
+  align-self: stretch;
+  align-items: center;
+  border-radius: 12px;
+  background-color: rgba(224, 224, 255, 1);
+}
+ 
+.ediittechstack-thq-text-elm20 {
+  color: rgba(0, 7, 103, 1);
+  height: auto;
+  font-size: 12px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Manrope;
+  font-weight: 700;
+  line-height: 16px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.ediittechstack-thq-button-elm4 {
+  width: 8px;
+  height: 8px;
+}
+ 
+.ediittechstack-thq-background-elm4 {
+  gap: 8px;
+  display: flex;
+  padding: 5.5px 12px 6.5px;
+  align-self: stretch;
+  align-items: center;
+  border-radius: 12px;
+  background-color: rgba(224, 224, 255, 1);
+}
+ 
+.ediittechstack-thq-text-elm21 {
+  color: rgba(0, 7, 103, 1);
+  height: auto;
+  font-size: 12px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Manrope;
+  font-weight: 700;
+  line-height: 16px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.ediittechstack-thq-button-elm5 {
+  width: 8px;
+  height: 8px;
+}
+ 
+.ediittechstack-thq-modal-actions-elm {
+  gap: 16px;
+  display: flex;
+  padding: 24px 32px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: flex-end;
+  background-color: rgba(245, 242, 251, 1);
+}
+ 
+.ediittechstack-thq-button-elm6 {
+  display: flex;
+  padding: 10px 24px;
+  align-items: center;
+  border-radius: 4px;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.ediittechstack-thq-text-elm22 {
+  color: rgba(76, 97, 108, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Manrope;
+  font-weight: 700;
+  line-height: 20px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.ediittechstack-thq-button-elm7 {
+  display: flex;
+  padding: 10px 32px;
+  position: relative;
+  background: linear-gradient(158deg, rgba(0, 6, 102, 1) 0%, rgba(26, 35, 126, 1) 100%);
+  align-items: center;
+  border-radius: 4px;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.ediittechstack-thq-buttonshadow-elm {
+  top: 0px;
+  left: 0px;
+  width: 156px;
+  height: 40px;
+  position: absolute;
+  border-radius: 4px;
+}
+ 
+.ediittechstack-thq-text-elm23 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  z-index: 1;
+  font-size: 14px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Manrope;
+  font-weight: 700;
+  line-height: 20px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.ediittechstack-link {
+  display: contents;
+}
+ 
+.ediittechstack-container2 {
+  right: 50px;
+  border: 1px solid #ffffff5c;
+  bottom: 30px;
+  display: flex;
+  z-index: 22;
+  position: fixed;
+  box-shadow: 5px 5px 10px 0px rgba(31, 31, 31, 0.4);
+  min-height: auto;
+  align-items: center;
+  padding-top: 8px;
+  padding-left: 12px;
+  border-radius: 8px;
+  padding-right: 12px;
+  padding-bottom: 8px;
+  backdrop-filter: blur(6px);
+  background-color: rgba(41, 41, 41, 0.41);
+}
+ 
+.ediittechstack-icon1 {
+  width: 24px;
+  margin-right: 4px;
+}
+ 
+.ediittechstack-text2 {
+  color: white;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}

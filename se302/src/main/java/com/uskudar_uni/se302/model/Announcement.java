@@ -5,6 +5,8 @@ import lombok.*;
 
 import java.time.LocalDate;
 
+import com.uskudar_uni.se302.model.enums.AnnouncementType;
+
 @Entity @Table(name = "announcements")
 @Data @NoArgsConstructor @AllArgsConstructor
 public class Announcement {
@@ -18,4 +20,11 @@ public class Announcement {
 
     @Column(columnDefinition = "TEXT")
     private String content;
+
+    @Column(columnDefinition = "TEXT")
+    private String title;
+
+    @Enumerated(EnumType.STRING)
+    private AnnouncementType type;
+
 }

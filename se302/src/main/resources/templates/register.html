@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="english" xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <title>Register - exported project</title>
+    <meta property="og:title" content="Register - exported project" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}pre {  white-space: normal;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" th:href="@{/css/style.css}" href="/css/style.css" />
+    <div>
+      <link href="/css/register.css" th:href="@{/css/register.css}" rel="stylesheet" />
+
+      <div class="register-container1">
+        <div class="register-thq-register-elm">
+          <div class="register-thq-main-elm">
+            <div class="register-thq-auth-canvas-section-elm">
+              <div class="register-thq-interaction-canvas-forms-elm">
+                <div class="register-thq-tab-toggle-minimalist-elm">
+                  <a th:href="@{/auth/login}" href="/auth/login" class="register-thq-link-elm1">
+                    <span class="register-thq-text-elm10">Sign In</span>
+                  </a>
+                  <div class="register-thq-link-elm2">
+                    <span class="register-thq-text-elm11">Register</span>
+                  </div>
+                </div>
+                <div class="register-thq-container-elm10">
+                  <div class="register-thq-container-elm11">
+                    <div class="register-thq-heading3-elm">
+                      <span class="register-thq-text-elm12">
+                        Create Your Profile
+                      </span>
+                    </div>
+                    <div class="register-thq-container-elm12">
+                      <span class="register-thq-text-elm13">
+                        <span>
+                          Please enter your credentials to access your curator
+                        </span>
+                        <br />
+                        <span>dashboard.</span>
+                      </span>
+                    </div>
+                  </div>
+
+                  <div class="register-thq-form-elm">
+                    <form th:action="@{/auth/register}" th:object="${registerRequest}" method="post" novalidate>
+                      <input type="hidden" th:name="${_csrf.parameterName}" th:value="${_csrf.token}" />
+
+                      <div class="register-thq-container-elm13">
+                        <div class="register-thq-email-elm">
+                          <div class="register-thq-label-elm1">
+                            <span class="register-thq-text-elm16">
+                              INSTITUTIONAL EMAIL
+                            </span>
+                          </div>
+                          <div class="register-thq-input-elm1">
+                            <div class="register-thq-container-elm14">
+                              <input class="register-thq-text-elm17" type="email" th:field="*{email}" placeholder="e.g. researcher@university.edu" required style="width:100%; background:transparent; border:none; outline:none;" />
+                            </div>
+                          </div>
+                          <div th:if="${#fields.hasErrors('email')}" th:errors="*{email}" style="color:#ba1a1a; margin-top:6px;"></div>
+                        </div>
+
+                        <div class="register-thq-name-elm">
+                          <div class="register-thq-label-elm2">
+                            <span class="register-thq-text-elm18">FULL NAME</span>
+                          </div>
+                          <div class="register-thq-input-elm2">
+                            <div class="register-thq-container-elm15">
+                              <input class="register-thq-text-elm19" type="text" th:field="*{name}" placeholder="Enter your full name" required style="width:100%; background:transparent; border:none; outline:none;" />
+                            </div>
+                          </div>
+                          <div th:if="${#fields.hasErrors('name')}" th:errors="*{name}" style="color:#ba1a1a; margin-top:6px;"></div>
+                        </div>
+
+                        <div class="register-thq-university-elm">
+                          <div class="register-thq-label-elm3">
+                            <span class="register-thq-text-elm20">
+                              UNIVERSITY
+                            </span>
+                          </div>
+                          <div class="register-thq-input-elm3">
+                            <div class="register-thq-container-elm16">
+                              <input class="register-thq-text-elm21" type="text" th:field="*{university}" placeholder="e.g. Uskudar University" style="width:100%; background:transparent; border:none; outline:none;" />
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="register-thq-department-elm">
+                          <div class="register-thq-label-elm4">
+                            <span class="register-thq-text-elm22">
+                              Department
+                            </span>
+                          </div>
+                          <div class="register-thq-input-elm4">
+                            <div class="register-thq-container-elm17">
+                              <input class="register-thq-text-elm23" type="text" th:field="*{department}" placeholder="e.g. Software Engineering" style="width:100%; background:transparent; border:none; outline:none;" />
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="register-thq-title-elm1">
+                          <div class="register-thq-label-elm5">
+                            <span class="register-thq-text-elm24">Title</span>
+                          </div>
+                          <div class="register-thq-input-elm5">
+                            <div class="register-thq-container-elm18">
+                              <input class="register-thq-text-elm25" type="text" th:field="*{title}" placeholder="e.g. Senior Student" style="width:100%; background:transparent; border:none; outline:none;" />
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="register-thq-title-elm2">
+                          <div class="register-thq-label-elm6">
+                            <span class="register-thq-text-elm26">Role</span>
+                          </div>
+                          <div class="register-thq-input-elm6">
+                            <div class="register-thq-container-elm19">
+                              <select class="register-thq-text-elm27" th:field="*{userType}" required style="width:100%; background:transparent; border:none; outline:none;">
+                                <option value="">Select role</option>
+                                <option th:each="type : ${userTypes}" th:value="${type}" th:text="${type}"></option>
+                              </select>
+                            </div>
+                          </div>
+                          <div th:if="${#fields.hasErrors('userType')}" th:errors="*{userType}" style="color:#ba1a1a; margin-top:6px;"></div>
+                        </div>
+
+                        <div class="register-thq-title-elm2">
+                          <div class="register-thq-label-elm6">
+                            <span class="register-thq-text-elm26">
+                              Academic Year
+                            </span>
+                          </div>
+                          <div class="register-thq-input-elm6">
+                            <div class="register-thq-container-elm19">
+                              <input class="register-thq-text-elm27" type="number" min="1" max="8" th:field="*{year}" placeholder="Enter your academic year" style="width:100%; background:transparent; border:none; outline:none;" />
+                            </div>
+                          </div>
+                          <div th:if="${#fields.hasErrors('year')}" th:errors="*{year}" style="color:#ba1a1a; margin-top:6px;"></div>
+                        </div>
+
+                        <div class="register-thq-password-elm">
+                          <div class="register-thq-label-elm7">
+                            <span class="register-thq-text-elm28">Password</span>
+                          </div>
+                          <div class="register-thq-input-elm7">
+                            <div class="register-thq-container-elm20">
+                              <input class="register-thq-text-elm29" id="register-password" type="password" th:field="*{password}" placeholder="Enter password" required style="width:100%; background:transparent; border:none; outline:none;" />
+                            </div>
+                            <button
+                              type="button"
+                              class="register-thq-password-toggle-elm"
+                              data-password-toggle
+                              data-target="register-password"
+                              aria-label="Show password"
+                              aria-pressed="false"
+                            >
+                              <img
+                                th:src="@{/images/container1371-hoj.svg}"
+                                src="/images/container1371-hoj.svg"
+                                alt="Toggle password visibility"
+                                class="register-thq-password-toggle-icon"
+                              />
+                            </button>
+                          </div>
+                          <div th:if="${#fields.hasErrors('password')}" th:errors="*{password}" style="color:#ba1a1a; margin-top:6px;"></div>
+                        </div>
+
+                        <div class="register-thq-password-elm">
+                          <div class="register-thq-label-elm7">
+                            <span class="register-thq-text-elm28">Confirm Password</span>
+                          </div>
+                          <div class="register-thq-input-elm7">
+                            <div class="register-thq-container-elm20">
+                              <input class="register-thq-text-elm29" id="register-confirm-password" type="password" th:field="*{confirmPassword}" placeholder="Confirm password" required style="width:100%; background:transparent; border:none; outline:none;" />
+                            </div>
+                            <button
+                              type="button"
+                              class="register-thq-password-toggle-elm"
+                              data-password-toggle
+                              data-target="register-confirm-password"
+                              aria-label="Show password"
+                              aria-pressed="false"
+                            >
+                              <img
+                                th:src="@{/images/container1371-hoj.svg}"
+                                src="/images/container1371-hoj.svg"
+                                alt="Toggle password visibility"
+                                class="register-thq-password-toggle-icon"
+                              />
+                            </button>
+                          </div>
+                          <div th:if="${#fields.hasErrors('confirmPassword')}" th:errors="*{confirmPassword}" style="color:#ba1a1a; margin-top:6px;"></div>
+                          <div th:if="${#fields.hasErrors('passwordConfirmed')}" th:errors="*{passwordConfirmed}" style="color:#ba1a1a; margin-top:6px;"></div>
+                        </div>
+                      </div>
+
+                      <button class="register-thq-button-elm" type="submit">
+                        <img
+                          th:src="@{/images/buttonshadow1371-ptmp-200h.png}"
+                          src="/images/buttonshadow1371-ptmp-200h.png"
+                          alt="Buttonshadow1371"
+                          class="register-thq-buttonshadow-elm"
+                        />
+                        <span class="register-thq-text-elm30">
+                          Register
+                        </span>
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <img
+              th:src="@{/images/backgroundblur1371-fkf-600w.png}"
+              src="/images/backgroundblur1371-fkf-600w.png"
+              alt="BackgroundBlur1371"
+              class="register-thq-background-blur-elm1"
+            />
+            <img
+              th:src="@{/images/backgroundblur1371-ebnr-600h.png}"
+              src="/images/backgroundblur1371-ebnr-600h.png"
+              alt="BackgroundBlur1371"
+              class="register-thq-background-blur-elm2"
+            />
+            <img
+              th:src="@{/images/organicintellectualismbackgroundelements1371-mekq-2000w.png}"
+              src="/images/organicintellectualismbackgroundelements1371-mekq-2000w.png"
+              alt="OrganicIntellectualismBackgroundElements1371"
+              class="register-thq-organic-intellectualism-background-elements-elm"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      (function () {
+        var toggles = document.querySelectorAll('[data-password-toggle]');
+        toggles.forEach(function (toggle) {
+          toggle.addEventListener('click', function () {
+            var targetId = toggle.getAttribute('data-target');
+            var input = document.getElementById(targetId);
+            if (!input) {
+              return;
+            }
+
+            var show = input.type === 'password';
+            input.type = show ? 'text' : 'password';
+            toggle.setAttribute('aria-pressed', show ? 'true' : 'false');
+            toggle.setAttribute('aria-label', show ? 'Hide password' : 'Show password');
+          });
+        });
+      })();
+    </script>
+  </body>
+</html>
+
